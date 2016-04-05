@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+  <div id="greeting"></div>
+  <p>
+  	Goodbye, cruel world. Goodbye, cruel lamp. Goodbye, cruel velvet drapes, lined with what would appear to be some sort of cruel muslin and the cute little pom-pom curtain pull cords. Cruel though they may be.. Belligerent and numerous. You are from <span id="homeTown"></span>.
+  </p>
+  
+  <div id="source">This is source text.</div>
+  <div id="destination">This is destination text.</div>
+  
+  <div id="swap1">Swap1 text</div>
+  <div id="swap2">Swap2 text</div>
+  
+  <script type="text/javascript">
+      // var name = prompt("What's your name?");
+      // document.querySelector("#greeting").textContent = "Hello, " + name + "!";
+      
+      // var town = prompt("Where are you from?");
+      // document.querySelector("#homeTown").textContent = town;
+      
+      var sourceText = document.querySelector("#source").textContent;
+      document.querySelector("#destination").textContent = sourceText;
+      
+      var swap1Text = document.querySelector("#swap1").textContent;
+      var swap2Text = document.querySelector("#swap2").textContent;
+      document.querySelector("#swap1").textContent = swap2Text;
+      document.querySelector("#swap2").textContent = swap1Text;
+
+  </script>
+</body>
+</html>
