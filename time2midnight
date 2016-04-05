@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page with JavaScript</title>
+</head>
+<body>
+
+
+<script type="text/javascript">
+	// alert("We diss alerts...");
+	// var answ = prompt("Do you like alerts?");
+	// alert("You did say " + answ + "!");
+	// var team = prompt("What is your favorite team?");
+	// console.log("Boo " + team);
+	
+	// //alert("Boo " + prompt("What is your favorite team?"));
+	
+	// var a,b,c;
+	// a = 1;
+	// b = 2;
+	// c = 3;
+	// var d = a+b+c;
+	// a = b; //a = 2
+	// b = c; //b = 3
+	
+	var today = new Date();
+	var hours = today.getHours();
+	var minutes = today.getMinutes();
+	var seconds = today.getSeconds();
+	var secondsUntilMidnight = (86400 - (seconds + minutes * 60 + hours * 60 * 60);
+	console.log(secondsUntilMidnight);
+</script>
+</body>
+</html>
